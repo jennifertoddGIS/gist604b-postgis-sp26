@@ -1,7 +1,7 @@
 # Post GIS Database Orchestration  
 
 **Student:** Jennifer Todd  
-**Course:** GIST 604B – Open Source GIS
+**Course:** GIST 604B – Open Source GIS  
 **Module:** Module 4 - Post GIS Database Orchestration  
 **University of Arizona**  
 
@@ -21,7 +21,7 @@ This project focused on building spatial database skills using PostgreSQL and Po
 - Wrote SQL queries to explore, filter, and analyze spatial data
 
 ## How to View / Run
--Open respository in Codespaces with Docker installed
+- Open respository in Codespaces with Docker installed
 - State database using Docker compose
 - Connect to PostgreSQL/PostGIS database using SQL terminal
 
