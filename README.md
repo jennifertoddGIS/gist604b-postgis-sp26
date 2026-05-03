@@ -1,6 +1,29 @@
-# GIST 604B – PostGIS
+# Post GIS Database Orchestration  
 
-Repository for working with spatial data using PostgreSQL and PostGIS.
+**Student:** Jennifer Todd  
+**Course:** GIST 604B – Open Source GIS
+**Module:** Module 4 - Post GIS Database Orchestration  
+**University of Arizona**  
+
+## Project Description
+This project focused on building spatial database skills using PostgreSQL and PostGIS in a containerized environment. I set up a PostGIS database, imported spatial datasets, and wrote SQL queries to perform spatial analysis.
+
+## Tools and Technologies
+- PostgreSQL
+- PostGIS
+- SQL
+- Docker Compose
+- Github Codespaces
+
+## What I Did
+- Set up a PostGIS-enabled PostgreSQL database using Docker Compose in Codespaces
+- Imported shapefiles and created spatial tables within a database
+- Wrote SQL queries to explore, filter, and analyze spatial data
+
+## How to View / Run
+-Open respository in Codespaces with Docker installed
+- State database using Docker compose
+- Connect to PostgreSQL/PostGIS database using SQL terminal
 
 ## Repository Structure
 
@@ -20,11 +43,3 @@ Repository for working with spatial data using PostgreSQL and PostGIS.
     │   ├── demo_filtering_queries.sql
     │   └── demo_postgis_queries.sql
     └── docker-compose.yml
-
-## Notes
-
-- demos folder contains sql scripts discussed in the lectures.
-- SQL files contain exercises and hints.
-- Write and execute queries directly in the `sql/` files using the VS Code PostgreSQL extension.
-- Data is downloaded and prepared inside the Codespace environment and is not stored in this repository.
-- The database runs in a separate PostGIS container using Docker.
